@@ -7,7 +7,7 @@ method of [Environment]::SetEnvironmentVariable()
 
 You can drop the function entirely in your profile, or simply dot-reference it.
 
-function Set-EnvVariable {
+    function Set-EnvVariable {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory)]
